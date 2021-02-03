@@ -1,0 +1,61 @@
+2021-02-03 15:00:57.936  INFO 15956 --- [main] c.h.a.c.CustomScannersServiceApplication : Starting CustomScannersServiceApplication on parrot with PID 15956 (/home/devtool/.vscode/extensions/hcltechnologies.hclappscancodesweep-1.1.3/lib/custom-scanners-service-1.0.10.jar started by devtool in /home/devtool/Lab/Web/PythonLab/APIs/testMongo)
+2021-02-03 15:00:57.997  INFO 15956 --- [main] c.h.a.c.CustomScannersServiceApplication : No active profile set, falling back to default profiles: default
+2021-02-03 15:01:36.229  INFO 15956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9221 (http)
+2021-02-03 15:01:36.572  INFO 15956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-03 15:01:36.574  INFO 15956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-03 15:01:36.992  INFO 15956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-03 15:01:36.994 DEBUG 15956 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2021-02-03 15:01:36.996  INFO 15956 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 38000 ms
+2021-02-03 15:01:40.020 DEBUG 15956 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-02-03 15:01:40.022 DEBUG 15956 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-02-03 15:01:48.912 DEBUG 15956 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
+2021-02-03 15:01:49.020  INFO 15956 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-03 15:01:49.434  INFO 15956 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 15:01:49.857  INFO 15956 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 15:01:49.943 DEBUG 15956 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-03 15:01:50.424 DEBUG 15956 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-03 15:01:50.470 DEBUG 15956 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-03 15:01:50.620  INFO 15956 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-03 15:01:50.801  INFO 15956 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-03 15:01:50.868  INFO 15956 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-03 15:01:51.713  INFO 15956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9221 (http) with context path ''
+2021-02-03 15:01:51.723  INFO 15956 --- [main] c.h.a.c.CustomScannersServiceApplication : Started CustomScannersServiceApplication in 62.445 seconds (JVM running for 66.479)
+2021-02-03 15:01:53.019  INFO 16435 --- [main] c.h.a.c.CustomScannersServiceApplication : Starting CustomScannersServiceApplication on parrot with PID 16435 (/home/devtool/.vscode/extensions/hcltechnologies.hclappscancodesweep-1.1.3/lib/custom-scanners-service-1.0.10.jar started by devtool in /home/devtool/Lab/Web/PythonLab/APIs/testMongo)
+2021-02-03 15:01:53.024  INFO 16435 --- [main] c.h.a.c.CustomScannersServiceApplication : No active profile set, falling back to default profiles: default
+2021-02-03 15:01:58.401  INFO 16435 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9221 (http)
+2021-02-03 15:01:58.551  INFO 16435 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-03 15:01:58.552  INFO 16435 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-03 15:01:58.854  INFO 16435 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-03 15:01:58.856 DEBUG 16435 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2021-02-03 15:01:58.857  INFO 16435 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5439 ms
+2021-02-03 15:01:59.522 DEBUG 16435 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-02-03 15:01:59.525 DEBUG 16435 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-02-03 15:02:03.455 DEBUG 16435 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
+2021-02-03 15:02:03.893  INFO 16435 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-03 15:02:03.999  INFO 16435 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-03 15:02:04.123  INFO 16435 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-03 15:02:04.152 DEBUG 16435 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-03 15:02:04.304 DEBUG 16435 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-03 15:02:04.318 DEBUG 16435 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-03 15:02:04.395  INFO 16435 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-02-03 15:02:04.424  INFO 16435 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-03 15:02:04.471  INFO 16435 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-03 15:02:04.989  INFO 16435 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-02-03 15:02:05.047  INFO 16435 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-03 15:02:05.058 ERROR 16435 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9221 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9221 or configure this application to listen on another port.
+
+2021-02-03 15:02:05.075  INFO 16435 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
